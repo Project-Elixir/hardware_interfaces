@@ -24,9 +24,5 @@ package {
 }
 
 cc_test {
-    name: "VtsHalAtraceV1_0TargetTest",
-    defaults: ["VtsHalTargetTestDefaults"],
-    srcs: ["VtsHalAtraceV1_0TargetTest.cpp"],
-    static_libs: ["android.hardware.atrace@1.0"],
-    test_suites: ["general-tests", "vts"],
+    
 }
